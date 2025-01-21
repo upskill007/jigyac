@@ -1,0 +1,31 @@
+Essential Git Commands and Their Usage
+General Commands
+	• git init: Initialize a new Git repository.
+	• git clone <repository-url>: Clone an existing repository to your local machine.
+	• git status: Check the status of your repository.
+	• git log: View the commit history.
+Working with Files
+	• git add <file>: Stage a specific file for commit.
+	• git add .: Stage all changes in the current directory.
+	• git commit -m "message": Commit staged changes with a message.
+	• git diff: View changes in your working directory.
+Branching and Merging
+	• git branch: List all branches.
+	• git branch <branch-name>: Create a new branch.
+	• git checkout <branch-name>: Switch to a specific branch.
+	• git checkout -b <branch-name>: Create and switch to a new branch.
+	• git merge <branch-name>: Merge a branch into the current branch.
+Remote Repositories
+	• git remote -v: View remote repository URLs.
+	• git push origin <branch-name>: Push changes to the remote repository.
+	• git pull origin <branch-name>: Pull changes from the remote repository.
+	• git fetch: Fetch changes from the remote repository without merging.
+Undoing Changes
+	• git reset <file>: Unstage a file.
+	• git reset --hard: Reset the working directory to the last commit.
+	• git revert <commit-hash>: Create a new commit that undoes a specific commit.
+	• git stash: Save uncommitted changes temporarily.
+	• git stash apply: Reapply stashed changes.
+
+asd
+
